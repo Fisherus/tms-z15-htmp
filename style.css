@@ -29,7 +29,8 @@ section > div, footer > div{
 
 .header{
     height: 768px;
-    background-image: url(img/head_bg.jpg);
+    background: url(img/head_bg.png) no-repeat;
+    background-size: 100% 100%;
     color: white;
     display: flex;
     flex-direction: column;
@@ -217,7 +218,9 @@ hr{
     font-weight: 800;
     font-size: 24px;
     line-height: 29px;
-    margin: 15px;
+    position: relative;
+    top: 15px;
+    left: 15px;
     letter-spacing: 0.19px;
 }
 
@@ -227,15 +230,22 @@ hr{
 }
 
 .ab1{
-    background-image: url(img/ar1.jpg);
+    background: url(img/ar1.png) no-repeat;
+    background-position: left -248px top -8px;
+    background-size: 400px 300px;
 }
 
 .ab2{
-    background-image: url(img/ar2.jpg);
+    background: url(img/ar2.png) no-repeat;
+    background-size: 300px 225px;
+    background-position: left -59px top 0px;
+
 }
 
 .ab3{
-    background-image: url(img/ar3.jpg);
+    background: url(img/ar3.png) no-repeat;
+    background-size: 300px 225px;
+    background-position: left -102px top -3px;
 }
 
 
@@ -306,21 +316,27 @@ hr{
 }
 
 .ic1{
-    background-image: url(img/icon_3.png);
+    background: url(img/icon_3.png) no-repeat;
+    background-size: 100% 100%;
 }
 
 .ic2{
-    background-image: url(img/icon_2.png);
+    background: url(img/icon_2.png) no-repeat;
+    background-size: 100% 100%;
+
 }
 
 .ic3{
-    background-image: url(img/icon_1.png);
+    background: url(img/icon_1.png) no-repeat;
+    background-size: 100% 100%;
 }
 
 
 .teg-in-touch{
     height: 498px;
-    background-image: url(img/bot_bg.jpg);
+    background: url(img/bot_bg.png) no-repeat;
+    background-size: 100% 100%;
+
     text-align: center;
     display: flex;
     flex-direction: column;
