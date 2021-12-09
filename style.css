@@ -3,8 +3,10 @@
     padding: 0;
     text-decoration: 0;
     box-sizing: border-box;
+}
 
-    /* border: 1px black solid; */
+a {
+    color: #48555B;
 }
 
 body{
@@ -73,7 +75,6 @@ section > div, footer > div{
     color: white;
     text-transform: uppercase;
     letter-spacing: 3.7px;
-    
 }
 
 
@@ -126,7 +127,7 @@ ul {
     margin-top: 22px;
 }
 
-li.active, span{
+a.active, span{
     color: #00A4E5;
 }
 
@@ -146,6 +147,7 @@ li.active, span{
     padding-top: 11px;
     padding-bottom: 11px;
     border: none;
+    cursor: pointer;
 }
 
 .ab-title{
@@ -418,6 +420,10 @@ hr{
 /* .footer {
     display: flex;
 } */
+
+.footer li>a {
+    color:white;
+}
 
 .footer h5{
     text-transform: uppercase;
